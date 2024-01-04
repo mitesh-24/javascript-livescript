@@ -1,12 +1,12 @@
 let score = null
 
-console.log(typeof score)
+// console.log(typeof score)
 
 let num = Number(score)  //this will convert the string into number but will be NaN -> Not a Number
-console.log(typeof num)
-console.log(num)   
+// console.log(typeof num)
+// console.log(num)   
 
-console.log("6" / "2")
+// console.log("6" / "2")
 
 //String conversion
 // "33" -> 33
@@ -40,3 +40,28 @@ Value	                        Becomes…
 0, null, undefined, NaN, ""	    false
 any other value	                true
 */
+
+//**********************   Operations   ********************8
+//Addition operator
+console.log(2+2) // 4
+console.log("2" + "2") // "22"
+console.log(2 + 2 + '1') // 41
+console.log('1' + 2 + 2) // 122
+
+//Substraction and other operators
+console.log('6' - 2) // 4
+console.log(6 - '2') // 4
+console.log('6' / '2') // 4
+
+let str = "2"
+console.log(+str)
+console.log(typeof +str) // number -> unary + oprtor converts the string or any other datatype into number
+
+let apples = "2";
+let oranges = "3";
+
+// both values converted to numbers before the binary plus
+alert( +apples + +oranges ); // 5
+
+// the longer variant
+// alert( Number(apples) + Number(oranges) ); // 5
